@@ -41,3 +41,25 @@ main {
     height: 471px;
 
 }
+
+#redes-sociais nav {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    padding: 40px;
+}
+
+#redes-sociais img {
+    width: 65px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.400);
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+#redes-sociais img:hover {
+    border: 2px solid white;
+    transform: translate(-4px, -4px);
+    transition: transform .24s;
+    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.800);
+}
